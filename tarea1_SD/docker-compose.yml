@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  scraper:
+    build: ./scraper
+    depends_on:
+      - storage
+
+  storage:
+    build: ./storage
+    ports:
+      - "5000:5000"
+
+  generator:
+    build: ./traffic_generator
+    depends_on:
+      - storage
+      - cache
+
+  cache:
+    build: ./cache
+    ports:
+      - "6000:6000"
