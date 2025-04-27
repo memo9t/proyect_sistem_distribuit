@@ -1,10 +1,10 @@
-# 🚦 Plataforma Distribuida para Análisis de Tráfico Vial
+#  Plataforma Distribuida para Análisis de Tráfico Vial
 
 Este proyecto implementa una plataforma distribuida simulando el procesamiento de datos de tráfico tipo Waze, utilizando un sistema de almacenamiento, generador de consultas y un sistema de caché configurable.
 
 ---
 
-## 📦 Estructura del Proyecto
+##  Estructura del Proyecto
 
 - scraper/: Simula scraping de eventos viales.
 - storage/: Almacena eventos en memoria.
@@ -14,7 +14,7 @@ Este proyecto implementa una plataforma distribuida simulando el procesamiento d
 
 ---
 
-## ⚙️ Requisitos previos
+##  Requisitos previos
 
 - Ubuntu 22.04 o superior
 - Docker
@@ -33,7 +33,7 @@ sudo usermod -aG docker $USER
 newgrp docker
 ```
 ---
-🐍 Instalación de Python 3.9+ (opcional)
+Instalación de  🐍 3.9+ (opcional)
 Actualiza repositorios:
 ```bash
 sudo apt update
@@ -72,7 +72,7 @@ Deberías ver:
 
 ---
 
-## 🧠 Descripción de módulos
+## Descripción de módulos
 
 - **scraper**: genera eventos falsos simulando datos reales de tráfico (tipo, latitud, longitud, timestamp).
 - **storage**: recibe y guarda eventos en memoria accesible mediante API REST (`/events`).
@@ -81,7 +81,7 @@ Deberías ver:
 
 ---
 
-## 🔁 Cambiar política de caché (LRU / FIFO)
+## Cambiar política de caché (LRU / FIFO)
 
 Para usar LRU:
 
@@ -103,7 +103,7 @@ docker-compose up -d cache
 ```
 ---
 
-## 🧪 Pruebas experimentales
+## Pruebas experimentales
 
 1. Modifica la distribución y tasa de arribo en el archivo `generator.py`.
 
@@ -140,7 +140,7 @@ Este endpoint mostrará:
 - current_cache_size
 ---
 
-📜 Visualización de logs de los servicios
+ Visualización de logs de los servicios
 Para monitorear el funcionamiento de cada servicio en tiempo real, utiliza los siguientes comandos desde la terminal:
 
 Logs del caché (para ver cuándo hay HITs y MISSes):
@@ -165,7 +165,7 @@ Ejecuta:
 docker logs -f tarea1_sd_storage_1
 ```
 ---
-## 📚 Notas finales
+## Notas finales
 
 cualquier comando que no funcione pruebe a utilizar sudo 
 
