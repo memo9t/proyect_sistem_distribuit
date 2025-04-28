@@ -172,9 +172,14 @@ cualquier comando que no funcione pruebe a utilizar sudo
 ---
 ##  Referencias
 
-- [Docker Documentation - Getting Started](https://docs.docker.com/get-started/)
-- [Flask Documentation - Official Website](https://flask.palletsprojects.com/en/latest/)
-- [Python Official Documentation - OrderedDict](https://docs.python.org/3/library/collections.html#collections.OrderedDict)
-- [Wikipedia - Poisson Distribution](https://en.wikipedia.org/wiki/Poisson_distribution)
-- [Wikipedia - Cache Replacement Policies (LRU, FIFO, LFU)](https://en.wikipedia.org/wiki/Cache_replacement_policies)
+- [Docker Overview - Docker Documentation](https://docs.docker.com/engine/docker-overview/)
+- [Flask Framework - Official Documentation](https://flask.palletsprojects.com/en/latest/)
+- [Python collections.OrderedDict - Official Documentation](https://docs.python.org/3/library/collections.html#collections.OrderedDict)
+- [Poisson Distribution - Brilliant.org](https://brilliant.org/wiki/poisson-distribution/)
+- [LRU Cache Implementation - GeeksforGeeks](https://www.geeksforgeeks.org/lru-cache-implementation/)
+- [Caching Best Practices - Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/best-practices/caching)
+- [Cache Replacement Policies Explained - Cloudflare Blog](https://blog.cloudflare.com/cache-eviction-what-it-is-and-how-it-works/)
+- [Best Practices for Dockerfiles - Docker Docs](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+- [REST API Best Practices - Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design)
+
 ---
