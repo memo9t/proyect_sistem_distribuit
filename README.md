@@ -170,3 +170,11 @@ docker logs -f tarea1_sd_storage_1
 cualquier comando que no funcione pruebe a utilizar sudo 
 
 ---
+##  Referencias
+
+- [Docker Documentation - Getting Started](https://docs.docker.com/get-started/)
+- [Flask Documentation - Official Website](https://flask.palletsprojects.com/en/latest/)
+- [Python Official Documentation - OrderedDict](https://docs.python.org/3/library/collections.html#collections.OrderedDict)
+- [Wikipedia - Poisson Distribution](https://en.wikipedia.org/wiki/Poisson_distribution)
+- [Wikipedia - Cache Replacement Policies (LRU, FIFO, LFU)](https://en.wikipedia.org/wiki/Cache_replacement_policies)
+---
