@@ -33,7 +33,7 @@ sudo usermod -aG docker $USER
 newgrp docker
 ```
 ---
-Instalación de  🐍 3.9+ (opcional)
+Instalación de python 3.9+ (opcional)
 Actualiza repositorios:
 ```bash
 sudo apt update
